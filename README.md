@@ -47,3 +47,18 @@ I run the user creation script and powershell will start to create random users 
 <br />
 
 ![image](https://github.com/user-attachments/assets/4af66bd1-b77e-44d3-964c-51b6ccead66d)
+
+<p>
+Next, We can check by searching "Active Directory Users and Computers" > mydomain.com > _EMPLOYEES. Here we will pick a user and log into client-1 using this username and the password the script sets for all of these users which is "Password1"
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/fd48a52e-0cb0-4b82-9029-c1de1ed007bb)
+
+<p>
+I run the user creation script and powershell will start to create random users and place them in the OU(Organizational Unit) we created in the previous section that we named "_EMPLOYEES".
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/8fd1a8d9-9286-407b-a675-d71d40401571)
+
