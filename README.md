@@ -78,9 +78,13 @@ To unlock the users account, login to DC and go to Active Directory Users and Co
 ![image](https://github.com/user-attachments/assets/cfd4b55f-4d53-48c9-9917-8079d187b60f)
 
 <p>
-Now I re-enable the account and attempt to login with it. After this, I observe the logs in the Domain Controller and the client machine.
+Now I re-enable the account and attempt to login with it. After this, I observe the logs in the Domain Controller and the client machine. These logs allow us to see who successfully or failed to log in and their attempts.
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/a6f56f66-6a5e-4ce8-892c-f1c840bc6b5a)
 
+<p>
+Now we have successfully configured Remote Desktop for non-administrative users, automated user creation with PowerShell, and managed group policies. Additionally, we covered account lockouts and log monitoring like we were in the workplace.
+</p>
+<br />
