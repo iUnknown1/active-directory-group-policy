@@ -69,3 +69,11 @@ Attempt to sign back into it with our random user with an invalid password 5 tim
 <br />
 
 ![image](https://github.com/user-attachments/assets/d21325b9-d793-419b-93c3-b5d92db57919)
+
+<p>
+To unlock the users account, hlogin to DC and go to Active Directory Users and Computers, then _EMPLOYEES, Account tab and check the "Unlock account" box:
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/cfd4b55f-4d53-48c9-9917-8079d187b60f)
+
