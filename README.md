@@ -56,9 +56,16 @@ Next, We can check by searching "Active Directory Users and Computers" > mydomai
 ![image](https://github.com/user-attachments/assets/fd48a52e-0cb0-4b82-9029-c1de1ed007bb)
 
 <p>
-I run the user creation script and powershell will start to create random users and place them in the OU(Organizational Unit) we created in the previous section that we named "_EMPLOYEES".
+Now, I log into DC-1 and pick a random user account I created previously. Then
+Attempt to log in with it 10 times with a bad password. Make sure to configure Group Policy to Lockout the account after 5 attempts:
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/8fd1a8d9-9286-407b-a675-d71d40401571)
 
+<p>
+Attempt to sign back into it with our random user with an invalid password 5 times. A lockout message will appear:
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/d21325b9-d793-419b-93c3-b5d92db57919)
