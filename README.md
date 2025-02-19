@@ -28,13 +28,22 @@ In this section of my project, I setup Remote Desktop for non-administrative use
 <h2>Deployment and Configuration Steps</h2>
 
 
- 1.) First, I login to DC-1 using remote computer connection and install Active Directory Domain Services using the server manager dashboard
+ 1.) First, I login into Client-1 as mydomain.com\jane_admin to go into settings for remote desktop connection and allow it for non administrative users.
  
-![image](https://github.com/user-attachments/assets/04d6ebd5-0387-4122-bb58-31d0bb0c9f25)
-
+![image](https://github.com/user-attachments/assets/9d0ebb20-899f-475a-bdf8-dc4c5009c7f8)
 
 
 <p>
-Next, I have to promote this machine as a DC by configuring it as a new forest as "mydomain.com" (this can be anything, mydomain.com is just easy to remember) In the top right, I will click on the flag icon with the caution symbol and promote it as a Domain Controller.
+Next, We log into Domain Controller as mydomain.com\jane_admin and open Powershell ISE to use the create user script.
 </p>
 <br />
+
+
+![image](https://github.com/user-attachments/assets/1b8d8882-fc97-4095-a483-af7d6d988e39)
+
+<p>
+I run the user creation script and powershell will start to create random users and place them in the OU(Organizational Unit) we created in the previous section that we named "_EMPLOYEES".
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/4af66bd1-b77e-44d3-964c-51b6ccead66d)
