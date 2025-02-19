@@ -71,9 +71,16 @@ Attempt to sign back into it with our random user with an invalid password 5 tim
 ![image](https://github.com/user-attachments/assets/d21325b9-d793-419b-93c3-b5d92db57919)
 
 <p>
-To unlock the users account, hlogin to DC and go to Active Directory Users and Computers, then _EMPLOYEES, Account tab and check the "Unlock account" box:
+To unlock the users account, login to DC and go to Active Directory Users and Computers, then _EMPLOYEES, Account tab and check the "Unlock account" box:
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/cfd4b55f-4d53-48c9-9917-8079d187b60f)
+
+<p>
+Now I re-enable the account and attempt to login with it. After this, I observe the logs in the Domain Controller and the client machine.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/a6f56f66-6a5e-4ce8-892c-f1c840bc6b5a)
 
